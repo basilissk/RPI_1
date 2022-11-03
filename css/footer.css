@@ -90,18 +90,42 @@
     font-family: "Montserrat", sans-serif;
     font-size:14px;
     line-height: 33px;
+    display: flex;
+    
 
 }
-.fir_help_item a::before{
+
+/* .fir_help_item a::before{
     content: "›";
     padding-right: 8px;
     transition: all .4s ease; 
+    
+} */
+
+.item_wrap{
+    display: flex;
+    color:rgba(255, 255, 255, 0.230);
+    align-items: center;
+    max-width: 100px;
+
+    
 }
+.item_wrap p{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.item_wrap:hover{
+    color:white;   
+}
+
 
 .fir_help_item a:hover{
     position: relative;
     left:10px;
     color:white;
+    padding-right: 20px;
+    
+    
 }
 
 .sec_help {
